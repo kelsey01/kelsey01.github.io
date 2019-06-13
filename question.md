@@ -28,7 +28,7 @@ Traceback (most recent call last):
 ValueError: PyCapsule_GetPointer called with incorrect name
 '''
 Some people say installing 'pyqt4' would fix the above problem. But I fail to install it using '$ pip install'.
-Instead, '$ conda install pyqt4' works.
+Instead, '$ conda install "pyqt<5"' works.
 And Spyder launches **successfully**.
 
 [back](./)
