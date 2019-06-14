@@ -4,8 +4,8 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Question Page](./question.md).\\
-[Cheat Sheet](./cheat_sheet.md).
+[Question Page](./question.md)\\
+[Cheat Sheet](./cheat_sheet.md)
 
 There should be whitespace between paragraphs.
 
