@@ -3,7 +3,7 @@ layout: default
 ---
 
 ## Question Page
-### Tensorflow CPU version
+### 1. Spyder (Linux) fail to launch with Tensorflow CPU version
 Install Spyder using:
 ```
 $ conda install spyder
