@@ -13,7 +13,7 @@ layout: default
 
 | function           | head two                                           |
 |:-------------------|:---------------------------------------------------|
-| ok                 | good swedish fish                                  |
+| `np.newaxis`       | good swedish fish                                  |
 | out of stock       | good and plenty                                    |
 
 
