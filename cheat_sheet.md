@@ -11,10 +11,10 @@ layout: default
 
 ### Command line
 
-| function     | head two          |
-|:-------------|:------------------|
-| ok           | good swedish fish |
-| out of stock | good and plenty   |
+| function           | head two                                           |
+|:-------------------|:---------------------------------------------------|
+| ok                 | good swedish fish                                  |
+| out of stock       | good and plenty                                    |
 
 
 [back](./)
