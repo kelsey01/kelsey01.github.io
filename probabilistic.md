@@ -5,6 +5,7 @@ layout: default
 ## Probabilistic Modeling
 
 ### Bayes-by-backprop
+
 *  <https://www.nitarshan.com/bayes-by-backprop/>
 *  <https://medium.com/neuralspace/probabilistic-deep-learning-bayes-by-backprop-c4a3de0d9743>
 
