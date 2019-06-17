@@ -16,3 +16,5 @@ layout: default
 *  [Edward](https://www.ibm.com/blogs/research/2018/11/edward-wml/ "BNN example")
     - [Edward batch training](http://edwardlib.org/tutorials/batch-training)
 *  [Pyro](https://github.com/paraschopra/bayesian-neural-network-mnist/blob/master/bnn.ipynb "BNN example")
+
+[back](./)
