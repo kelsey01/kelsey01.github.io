@@ -31,4 +31,9 @@ Some people say installing `pyqt4` would fix the above problem. But I fail to in
 Instead, `$ conda install "pyqt<5"` works.
 And Spyder launches **successfully**.
 
+### 2. Edward and tensorflow_probability package compatibility
+*  `Edward` requires `TensorFlow 1.6.0` (or maybe `<=1.6.0`)
+*  `TensorFlow_probability` requires `TensorFlow >=1.13.1` (but `TensorFlow >=2.0` does not support it)
+
+
 [back](./)
