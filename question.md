@@ -37,10 +37,12 @@ And Spyder launches **successfully**.
 
 ### 3. [MAC Install MacPorts Error](https://www.macports.org/install.php)
 Error raised when agree to Xcode license in Terminal: `$ sudo xcodebuild -license`
-```xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance
+```
+xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance
 ```
 Change path under Xcode path
-```$ sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer/
+```
+$ sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer/
 ```
 And agree to Xcode license again.
 
