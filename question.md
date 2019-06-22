@@ -35,5 +35,13 @@ And Spyder launches **successfully**.
 *  `Edward` requires `TensorFlow 1.6.0` (or maybe `<=1.6.0`)
 *  `TensorFlow_probability` requires `TensorFlow >=1.13.1` (but `TensorFlow >=2.0` does not support it)
 
+### 3. [MAC Install MacPorts Error](https://www.macports.org/install.php)
+Error when agree to Xcode license in Terminal: `$ sudo xcodebuild -license`
+```xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance```
+```
+Change path under Xcode path
+```$ sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer/
+```
+And agree to Xcode license again.
 
 [back](./)
