@@ -46,4 +46,28 @@ $ sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer/
 ```
 And agree to Xcode license again.
 
+### 4. Install PCL for Ubuntu
+* Try to install PCL for ubuntu according to this [link](https://github.com/kelsey01/SFND_Lidar_Obstacle_Detection_assignment). But got Error:
+```
+E: Unable to locate package libpcl-dev
+```
+as `libpcl-dev` does not support ubuntu 14.04
+
+* Try to install ubuntu 16.04 on Parallels Desktop 10, but is not successfully installed on PD as it got stuck on the login screen. The reason may be the same as [it](https://blog.csdn.net/a545905403/article/details/79174718) says that PD10 fails to support ubuntu kernel linux-image-4.4.0. It is said that by changing the kernel to a lower version, ubuntu can be boosted successfully. There are many kernel changing or degrade methods. I choose to stick with ubuntu 14.04 as I need this version for JetPack flashing.
+
+* Based on this [link](https://blog.csdn.net/mush_room/article/details/78339578), here is the pcl-1.8.1 release installation on ubuntu 14.04 (on virtual machine PD10).
+
+  1. `$ sudo add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl`
+  2. `$ sudo apt-get update`
+  3. `$ sudo apt-get install libpcl-all`
+  4. `$ sudo apt-get cmake`
+  5. Download pcl-1.8.1 from <https://github.com/PointCloudLibrary/pcl/releases>
+  6. decompress pcl-pcl-1.8.1.tar `$ tar -xvf pcl-pcl-1.8.1.tar`
+  7. `$ cd pcl-pcl-1.8.1 && mkdir build && cd build`
+  8. `$ cmake -DCMAKE_BUILD_TYPE=Release ..`
+  9. `$ make -j2`
+    There is error raised `c++: internal compiler error: Killed (program cc1plus)`. Check with this [link](https://stackoverflow.com/questions/30887143/make-j-8-g-internal-compiler-error-killed-program-cc1plus). I increase ubuntu memory on PD10 to 4G.
+  10. `$ sudo make -j2 install`
+
+
 [back](./)
