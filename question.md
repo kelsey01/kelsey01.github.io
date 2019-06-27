@@ -63,7 +63,7 @@ as `libpcl-dev` does not support ubuntu 14.04
   4. `$ sudo apt-get cmake`
   5. Download pcl-1.8.1 from <https://github.com/PointCloudLibrary/pcl/releases>
   6. decompress pcl-pcl-1.8.1.tar `$ tar -xvf pcl-pcl-1.8.1.tar`
-  7. `$ cd pcl-pcl-1.8.1 && mkdir build && cd build`
+  7. Install pcl `$ cd pcl-pcl-1.8.1 && mkdir build && cd build`
   8. `$ cmake -DCMAKE_BUILD_TYPE=Release ..`
   9. `$ make -j2`
     There is error raised `c++: internal compiler error: Killed (program cc1plus)`. Check with this [link](https://stackoverflow.com/questions/30887143/make-j-8-g-internal-compiler-error-killed-program-cc1plus). I increase ubuntu memory on PD10 to 4G.
