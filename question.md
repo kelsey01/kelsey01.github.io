@@ -47,7 +47,7 @@ $ sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer/
 And agree to Xcode license again.
 
 ### 4. Install PCL for Ubuntu
-* Try to install PCL for ubuntu according to this [link](https://github.com/kelsey01/SFND_Lidar_Obstacle_Detection_assignment). But got Error:
+* Try to install PCL for ubuntu according to this [link](https://github.com/udacity/SFND_Lidar_Obstacle_Detection). But got Error:
 ```
 E: Unable to locate package libpcl-dev
 ```
