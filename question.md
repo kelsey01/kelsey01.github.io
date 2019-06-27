@@ -67,7 +67,7 @@ as `libpcl-dev` does not support ubuntu 14.04
   8. `$ cmake -DCMAKE_BUILD_TYPE=Release ..`
   9. `$ make -j2`
     There is error raised `c++: internal compiler error: Killed (program cc1plus)`. Check with this [link](https://stackoverflow.com/questions/30887143/make-j-8-g-internal-compiler-error-killed-program-cc1plus). I increase ubuntu memory on PD10 to 4G.
-  10. `$ sudo make -j2 install`
+  10. `$ sudo make -j2 install` done.
 
 
 [back](./)
