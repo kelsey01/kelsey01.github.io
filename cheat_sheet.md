@@ -20,6 +20,7 @@ layout: default
 | `$ nvidia-smi`               | can get NVIDIA GPU information           |
 | `$ ps -auxf | grep python`   | can get usage information of python      |
 | `$ top -n 1 -i [-c -b]`      | can get usage information of CPU         |
+| `$ sudo dmesg`               | check if it is out of memory             |
 
 ### GPU configuration
 

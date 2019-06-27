@@ -53,7 +53,7 @@ E: Unable to locate package libpcl-dev
 ```
 as `libpcl-dev` does not support ubuntu 14.04
 
-* Try to install ubuntu 16.04 on Parallels Desktop 10, but is not successfully installed on PD as it got stuck on the login screen. The reason may be the same as [it](https://blog.csdn.net/a545905403/article/details/79174718) says that PD10 fails to support ubuntu kernel linux-image-4.4.0. It is said that by changing the kernel to a lower version, ubuntu can be boosted successfully. There are many kernel changing or degrade methods. I choose to stick with ubuntu 14.04 as I need this version for JetPack flashing.
+* Try to install ubuntu 16.04 on Parallels Desktop 10, but is not successfully installed on PD as it got stuck on the login screen. The reason may be the same as [it](https://blog.csdn.net/a545905403/article/details/79174718) says that PD10 fails to support ubuntu kernel linux-image-4.4.0. It is said that by changing the kernel to a lower version, ubuntu can be boosted successfully. There are many kernel changing or degrade methods. I choose to stick with ubuntu 14.04.
 
 * Based on this [link](https://blog.csdn.net/mush_room/article/details/78339578), here is the pcl-1.8.1 release installation on ubuntu 14.04 (on virtual machine PD10).
 
