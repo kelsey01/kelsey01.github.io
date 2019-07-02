@@ -44,15 +44,15 @@ $ git clone xxx
 $ git status
 ```
 * Push local changes to github webpages
-1. Add all changed files into git index
+  1. Add all changed files into git index
 ```
 $ git add .
 ```
-  2. Commit changed files in index
+    2. Commit changed files in index
 ```
 $ git commit -m "add notes for your changing"
 ```
-  3. Push to the github webpage
+      3. Push to the github webpage
 ```
 $ git push origin master
 ```
