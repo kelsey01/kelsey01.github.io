@@ -18,7 +18,7 @@ layout: default
 |:-----------------------------|:-----------------------------------------|
 | `$ ssh username@IP.address`  |login remote server                       |
 | `$ nvidia-smi`               | can get NVIDIA GPU information           |
-| `$ ps -auxf &#124; grep python`   | can get usage information of python      |
+| <code>$ ps -auxf &#124; grep python</code> | can get usage information of python      |
 | `$ top -n 1 -i [-c -b]`      | can get usage information of CPU         |
 | `$ sudo dmesg`               | check if it is out of memory             |
 
