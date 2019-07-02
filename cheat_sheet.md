@@ -39,10 +39,7 @@ session =tf.Session(config=config)
 $ cd ~/your/local/path
 $ git clone xxx
 ```
-* Check edited content after editing in local drive
-```
-$ git status
-```
+* Check edited content after editing in local drive: `$ git status `
 * Push local changes to github webpages
   1. Add all changed files into git index: `$ git add . `
   2. Commit changed files in index: `$ git commit -m "add notes for your changing" `
