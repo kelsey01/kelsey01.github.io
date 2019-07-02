@@ -44,7 +44,7 @@ $ git clone xxx
 $ git status
 ```
 * Push local changes to github webpages
-  1. Add all changed files into git index
+1. Add all changed files into git index
 ```
 $ git add .
 ```
