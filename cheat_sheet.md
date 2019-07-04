@@ -21,6 +21,8 @@ layout: default
 | <code>$ ps -auxf &#124; grep python</code> | can get usage information of python      |
 | `$ top -n 1 -i [-c -b]`      | can get usage information of CPU         |
 | `$ sudo dmesg`               | check if it is out of memory             |
+| `$ getconf LONG_BIT `        | check if system is i686(32bit) or 64bit  |
+
 
 ### GPU configuration
 
