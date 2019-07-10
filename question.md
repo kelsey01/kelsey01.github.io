@@ -78,7 +78,7 @@ There are two main purposes for using host PC to flash Jetson TX2. 1) Flash OS 2
 
 ![not enough memory](/assets/img/jetson/not_enough_memory.JPG)
 
-  b. Got stuck on getting files from the network `0% [Working]` as shows in the following image. It is due to network connection failure for the board (although the host PC network is working and it is connected to the board with a switcher and ethernet cable). I use university network and it requires webpage login. So make sure your board is webpage login and connected to the network.  
+  b. Got stuck on getting files from the network `0% [Working]` as shows in the following image. It is probably due to network connection failure for the board (although the host PC network is working and it is connected to the board with a router and an ethernet cable). I use university network and it requires webpage login. So make sure your board is webpage login and connected to the network.  
 
 ![network problem](/assets/img/jetson/network_problem.JPG)
 
@@ -86,7 +86,7 @@ There are two main purposes for using host PC to flash Jetson TX2. 1) Flash OS 2
 
 ![CUDA installation failed](/assets/img/jetson/cuda_fail.JPG)
 
-The package installation process may go and forth several times. But you don't need to flash OS every time. Once the flashing OS is done successfully, when installing packages, choose `no action` for the ones inside the red box as shows in the following image. 
+The package installation process may go and forth several times. But you don't need to flash OS every time. Once the flashing OS is done successfully, when installing packages, choose `no action` for the ones inside the red box as shows in the following image.
 
 ![only install packages](/assets/img/jetson/flashing.png)
 
