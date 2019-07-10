@@ -74,13 +74,14 @@ There are two main purposes for using host PC to flash Jetson TX2. 1) Flash OS 2
 
 ![flashing successfully](/assets/img/jetson/flashing_done.JPG)
 
-  1. Got stuck right after flashing OS as shows in the following image `Connection to IP_ADDRESS closed`. My JetPack is not installed on either `/` or `home` on host PC ubuntu 16.04 due to limited space but on the other booting system windows 7. Change to a new host PC with JetPack installed on `home`.
+  a. Got stuck right after flashing OS as shows in the following image `Connection to IP_ADDRESS closed`. The JetPack is not installed on either `/` or `home` on host PC ubuntu 16.04 due to limited space but on the other booting system windows 7. Change to a new host PC with JetPack installed on `home`.
 
 ![not enough memory](/assets/img/jetson/not_enough_memory.JPG)
 
-  2. Got stuck on getting files from the network as shows in the following image `0% [Working]`.
+  b. Got stuck on getting files from the network `0% [Working]` as shows in the following image.
 
 ![only install packages](/assets/img/jetson/flashing.png)
+
 [image courtesy](https://blog.csdn.net/Code_Mart/article/details/82153931)
 
 [back](./)
