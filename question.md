@@ -88,8 +88,6 @@ There are two main purposes for using host PC to flash Jetson TX2. 1) Flash OS 2
 
 The package installation process may go and forth several times. But you don't need to flash OS every time. Once the flashing OS is done successfully, when installing packages, choose `no action` for the ones inside the red box as shows in the following image.
 
-![only install packages](/assets/img/jetson/flashing.png)
-
-[image courtesy](https://blog.csdn.net/Code_Mart/article/details/82153931)
+![only install packages](/assets/img/jetson/flashing.png)[image courtesy](https://blog.csdn.net/Code_Mart/article/details/82153931)
 
 [back](./)
