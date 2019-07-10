@@ -70,6 +70,17 @@ as `libpcl-dev` does not support ubuntu 14.04
   10. `$ sudo make -j2 install` done.
 
 ### 5. Flashing Jetson TX2
-![flashing successfully](/assets/img/jetson/flashing.png)
+There are two main purposes for using host PC to flash Jetson TX2. 1) Flash OS 2) Install Packages (eg. CUDA, tensorRT, cuDNN, etc.). When you see this on the host PC and Jetson TX2 reboot successfully, it means flashing OS is done. Afterwards, if anything goes wrong, it goes wrong for installing packages instead of OS. There are some problems I ran into.
+
+![flashing successfully](/assets/img/jetson/flashing_done.JPG)
+
+  1. Got stuck right after flashing OS as shows in the following image `Connection to IP_ADDRESS closed`. My JetPack is not installed on either `/` or `home` on host PC ubuntu 16.04 due to limited space but on the other booting system windows 7. Change to a new host PC with JetPack installed on `home`.
+
+![not enough memory](/assets/img/jetson/not_enough_memory.JPG)
+
+  2. Got stuck on getting files from the network as shows in the following image `0% [Working]`.
+
+![only install packages](/assets/img/jetson/flashing.png)
+[image courtesy](https://blog.csdn.net/Code_Mart/article/details/82153931)
 
 [back](./)
