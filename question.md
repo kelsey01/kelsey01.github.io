@@ -90,4 +90,12 @@ The package installation process may go and forth several times. But you don't n
 
 ![only install packages](/assets/img/jetson/flashing.png)[image courtesy](https://blog.csdn.net/Code_Mart/article/details/82153931)
 
+### 6. `$ apt install` unavailable
+```
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+```
+  * First check which process is using apt: `$ ps -A | grep apt`
+  * Then kill the process: `$ kill -9 The_process_id`
+
+
 [back](./)
