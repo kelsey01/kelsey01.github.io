@@ -31,9 +31,22 @@ Some people say installing `pyqt4` would fix the above problem. But I fail to in
 Instead, `$ conda install "pyqt<5"` works.
 And Spyder launches **successfully**.
 
-### 2. Edward and tensorflow_probability package compatibility
+### 2. Edward and tensorflow_probability package
+#### 2.1 Edward and tensorflow_probability package compatibility
 *  `Edward` requires `TensorFlow 1.6.0` (or maybe `<=1.6.0`)
 *  `TensorFlow_probability` requires `TensorFlow >=1.13.1` (but `TensorFlow >=2.0` does not support it)
+
+#### 2.2 Windows conda failed installing tensorflow-gpu==1.6.0
+*  In conda env, use `pip install tensorflow==1.6.0`
+*  `tensorflow 1.6.0` cannot be installed in the env. Import version is always the root version `tensorflow-gpu==1.9.0`
+*  Even though `conda list` shows that `tensorflow 1.6.0` is there
+*  Go to the default conda env path `C:\Users\user\Anaconda3\envs\env\Scripts`, tensorflow is not there
+*  In cmd, change the directory into `C:\Users\user\Anaconda3\envs\env` uninstall and install using
+```
+C:\Users\user\Anaconda3\envs\env\Scripts\pip.exe uninstall tensorflow-gpu==1.9.0
+C:\Users\user\Anaconda3\envs\env\Scripts\pip.exe install tensorflow-gpu==1.6.0
+```
+*  When uninstalling, `c:\users\user\appdata\roaming\..` packages are uninstalled.
 
 ### 3. [MAC Install MacPorts Error in Step 2](https://www.macports.org/install.php)
 Error raised when agree to Xcode license in Terminal: `$ sudo xcodebuild -license`
