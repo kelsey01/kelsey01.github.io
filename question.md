@@ -115,9 +115,9 @@ E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is an
 could not create cudnn handle: CUDNN_STATUS_ALLOC_FAILED
 ```
   * add the following code solved:
-  ```
+```
 config = tf.ConfigProto()
 config.gpu_options.allow_growth = True
 sess = tf.Session(config=config)
-  ```
+```
 [back](./)
