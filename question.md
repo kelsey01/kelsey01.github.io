@@ -110,5 +110,14 @@ E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is an
   * First check which process is using apt: `$ ps -A | grep apt`
   * Then kill the process: `$ kill -9 The_process_id`
 
-
+### 7. After installing some packages, cudnn suddenly failed on previously successfully built code:
+```
+could not create cudnn handle: CUDNN_STATUS_ALLOC_FAILED
+```
+  * add the following code solved:
+  ```
+config = tf.ConfigProto()
+config.gpu_options.allow_growth = True
+sess = tf.Session(config=config)
+  ```
 [back](./)
