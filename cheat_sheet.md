@@ -26,6 +26,28 @@ layout: default
 | `$ getconf LONG_BIT `        | check if system is i686(32bit) or 64bit  |
 
 
+### Docker
+* Create a container
+Example:
+```
+$ docker run --gpus 1 -d --user 0 -it -v /home/Username:/data --name container_name docker_image_name
+```
+  1. `--gpus 1`: assign gpu 1 to the container. `--gpus all`: assign all gpus.
+  2. `-v /home/Username:/data`: map host data path `/home/Username` to container path `/data`.
+  3. `--name container_name`: container name.
+  4. `docker_image_name`: docker image that can be easily used to create a container.
+
+* Command line
+| function                                      | note                                     |
+|:----------------------------------------------|:-----------------------------------------|
+| `$ docker start container_name`               | to start a created container             |
+| `$ docker exec -it container_name /bin/bash`  | to run a started container               |
+| `$ docker stop container_name`                | to stop a running container              |
+| `$ docker rm container_name`                  | to remove a container                    |
+| `$ docker image ls`                           | to list all docker images                |
+| `$ docker ps -a`                              | to list all docker container process     |
+
+
 ### GPU configuration
 
 Use 30% of GPU
