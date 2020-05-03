@@ -38,6 +38,7 @@ $ docker run --gpus 1 -d --user 0 -it -v /home/Username:/data --name container_n
   4. `docker_image_name`: docker image that can be easily used to create a container.
 
 * Command line
+
 | function                                      | note                                     |
 |:----------------------------------------------|:-----------------------------------------|
 | `$ docker start container_name`               | to start a created container             |
