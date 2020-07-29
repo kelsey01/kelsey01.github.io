@@ -1,4 +1,4 @@
-### Flashing Jetson TX2
+### Flashing Jetson TX2 Problems
 There are two main purposes for using host PC to flash Jetson TX2. 1) Flash OS 2) Install Packages (eg. CUDA, tensorRT, cuDNN, etc.). When you see this on the host PC and Jetson TX2 reboot successfully, it means flashing OS is done. Afterwards, if anything goes wrong, it goes wrong for installing packages instead of OS. There are some problems I ran into.
 
 ![flashing successfully](/assets/img/jetson/flashing_done.JPG)
