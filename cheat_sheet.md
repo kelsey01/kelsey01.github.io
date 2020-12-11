@@ -18,7 +18,8 @@ layout: default
 | `$ sudo dmesg`                  | check if it is out of memory             |
 | `$ getconf LONG_BIT `           | check if system is i686(32bit) or 64bit  |
 | `$ df`                          | check disk usage                         |
-| `$ unzip '*.zip' -d /newpath`   | unzip all files into a new path          |  
+| `$ unzip '*.zip' -d /newpath`   | unzip all files into a new path          |
+| `$ chmod +x protoc              | make protoc executable                   |  
 
 
 ### Docker
